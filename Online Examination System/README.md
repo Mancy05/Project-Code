@@ -62,8 +62,5 @@ A modern, responsive online exam platform featuring sign-up/login functionality,
 - **`result.js`**: Displays the user's exam result using data from `localStorage`.
 - **`goBackButtonDisable.js`**: Prevents users from going back during the exam.
 
-## How to Run the Project
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/MoSalem149/Online-Exam-Platform_DEBI-Project.git
+

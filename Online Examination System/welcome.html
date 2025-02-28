@@ -20,17 +20,24 @@
           src="assets/images/svg/online-test-img.svg"
           alt="Online Test Image"
         />
-        <h1>Welcome to the Exam</h1>
-        <p>
-          Click the button below to start your exam. The exam consists of 20
-          questions, and you have 10 minutes to complete it. Good luck!
-        </p>
-        <a
-          href="exam.html"
-          onclick="localStorage.removeItem('flaggedQuestions'); localStorage.removeItem('selectedAnswers'); localStorage.removeItem('remainingTime')"
-        >
-          <button class="btn"><i class="fas fa-check"></i> Start Exam</button>
-        </a>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <h1>Welcome to the Online Exam Platform</h1>
+    <p>Please read the exam rules before starting the exam.</p>
+    <p>The exam consists of 20
+      questions, and you have 10 minutes to complete it. Good luck!
+</p>
+
+    <a href="rules.html"><button>Proceed to Exam Rules</button></a>
+</body>
+</html>
+
       </div>
       <div class="img">
         <img

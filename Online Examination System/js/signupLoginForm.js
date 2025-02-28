@@ -168,3 +168,4 @@ window.onload = function () {
   localStorage.removeItem("studentScore");
   localStorage.removeItem("remainingTime");
 };
+
